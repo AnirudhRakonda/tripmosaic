@@ -51,4 +51,6 @@ src/
 git clone https://github.com/your-username/tripmosaic.git
 cd tripmosaic
 ```
+npm install
+
 npm run dev

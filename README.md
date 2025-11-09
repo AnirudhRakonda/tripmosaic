@@ -34,5 +34,29 @@ It allows users to create travel groups, collect trip preferences, generate AI-b
 ```bash
 git clone https://github.com/your-username/tripmosaic.git
 cd tripmosaic
+```
+npm run dev
+```
 
+### to run
+```
+npm run dev
+```
+file structure
+src/
+ ├── pages/
+ │   ├── Login.jsx
+ │   ├── SignUp.jsx
+ │   ├── Dashboard.jsx
+ │   └── group/
+ │       ├── GroupHome.jsx
+ │       ├── PreferencesForm.jsx
+ │       ├── AIPlan.jsx
+ │       └── MapsView.jsx
+ ├── components/
+ │   └── ProtectedRoute.jsx
+ ├── firebase/
+ │   └── firebase.js
+ └── utils/
+     └── geocodePlace.js
 
